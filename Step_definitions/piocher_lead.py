@@ -17,7 +17,8 @@ def step_impl(context, email, password):
 def step_impl(context):
     login_button = context.browser.find_element(By.ID, "login-button")
     login_button.click()
-
+    
+  # Insérez ici le code pour vérifier que le lead a été pioché avec succès
 @then("le télévendeur vérifie que le lead a été pioché avec succès")
 def step_impl(context):
     # Insérez ici le code pour vérifier que le lead a été pioché avec succès
