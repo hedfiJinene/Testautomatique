@@ -9,3 +9,4 @@ Scenario: Changer le statut d'un lead
     And Choisir le statut "En cours"
     And Cliquer sur le bouton Enregistrer
     And Vérifier le changement de statut de lead
+    And changer nour test
