@@ -54,5 +54,6 @@ class ChangementStatutLeadObject:
         time.sleep(2)  # Attendre quelques secondes pour que la page se mette à jour
         nouveau_lead = self.driver.find_element(By.XPATH, "//*[@id=\"app\"]/div/div/div/div/div[1]/main/div/div/div[2]/span[2]/div/button/span[3]")
         assert nouveau_lead.text == "En cours"
+        print("lead en cours")
     
         
