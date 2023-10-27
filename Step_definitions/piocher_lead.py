@@ -1,5 +1,6 @@
 from behave import *
 from selenium.webdriver.common.by import By
+from time import sleep 
 
 @given("le télévendeur est sur la page du tableau de bord")
 def step_impl(context):
